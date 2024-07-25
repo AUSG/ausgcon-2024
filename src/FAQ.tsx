@@ -1,5 +1,5 @@
 const FAQ = () => {
-    return <section className="text-white my-[30px] flex flex-col">
+    return <section className="text-white my-[30px] flex flex-col h-[100vh]">
         <p className="text-[2.5rem] font-semibold mt-[3rem]">Code of Conduct</p>
         <div className="mt-[30px] flex flex-col gap-[20px]">
             <article className="flex flex-col gap-[10px]">

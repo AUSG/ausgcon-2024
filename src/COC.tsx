@@ -1,5 +1,5 @@
 const COC = () => {
-    return <section className="text-white mt-[30px] flex flex-col">
+    return <section className="text-white mt-[30px] flex flex-col h-[100vh]">
         <p className="text-[2.5rem] font-semibold mt-[3rem]">FAQ</p>
         <div className="mt-[30px] flex flex-col gap-[20px]">
             <article className="flex flex-col gap-[10px]">
