@@ -7,13 +7,25 @@ export default {
   theme: {
     extend: {
       keyframes: {
-        reveal: {
-          from: { opacity: "0", transform: "translateY(30px)" },
-          to: {opacity: "1", transform: "translateY(0px)" },
-        }
+        "first-reveal": {
+          from: { opacity: "0", transform: "translateY(20px)" },
+          to: { opacity: "1", transform: "translateY(0px)" },
+        },
+        "second-reveal": {
+          from: { opacity: "0", transform: "translateY(20px)" },
+          '50%': { opacity: "0", transform: "translateY(20px)" },
+          to: { opacity: "1", transform: "translateY(0px)" }
+        },
+        "third-reveal": {
+          from: { opacity: "0", transform: "translateY(20px)" },
+          '66%': { opacity: "0", transform: "translateY(20px)" },
+          to: { opacity: "1", transform: "translateY(0px)" }
+        },
       },
       animation: {
-        appear: "reveal 1s ease-in-out"
+        "appear-first": "first-reveal 0.5s ease-in-out",
+        "appear-second": "second-reveal 0.5s ease-in-out",
+        "appear-third": "third-reveal 0.5s ease-in-out"
       }
     },
   },
