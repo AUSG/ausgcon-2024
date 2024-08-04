@@ -4,7 +4,7 @@ const Introduce = () => {
             <p className="text-[3rem] font-semibold">AUSGCON 2024</p>
             <p className="text-[2rem] font-semibold">: try-catch</p>
         </div>
-        <img src="cloud_1.png" alt="cloud_1" className="animate-appear-second max-w-[400px] self-center" />
+        <img src="gurumi.png" alt="gurumi" className="animate-appear-second max-w-[400px] self-center" />
         <button type="button" className="w-[300px] self-center bg-white text-black rounded-[20px] font-semibold animate-appear-third border-none hover:bg-gray-900 hover:text-white">신청하러 가기</button>
     </div>
 }
