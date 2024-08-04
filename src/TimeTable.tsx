@@ -3,7 +3,7 @@ const Session = () => {
         <article className="flex flex-col justify-between gap-[20px] ">
             <div className="w-full flex justify-between items-center">
                 <p className="text-[2rem] font-semibold">Hyeonggeun Oh</p>
-                <div className="w-[4rem] bg-gray-400 rounded-[20px] text-black flex justify-center items-center">A홀</div>
+                <div className="w-[4rem] bg-[#54B9C5] rounded-[20px] text-black flex justify-center items-center">A홀</div>
             </div>
             <span>Lorem Ipsum main content. Lorem Ipsum main content. Lorem Ipsum main content. Lorem Ipsum main content. Lorem Ipsum main content. Lorem Ipsum main content.Lorem Ipsum main content. Lorem Ipsum main content. Lorem Ipsum main content.</span>
             <div className="flex gap-[1rem]">
@@ -18,8 +18,8 @@ const Session = () => {
 }
 
 const Timetable = () => {
-    return <section className="p-[1rem] text-white min-h-[100vh] flex flex-col items-center gap-[40px]">
-        <div className="w-full font-semibold text-white text-[2.5rem] py-[1rem]">Time Table</div>
+    return <section className="p-[1rem] text-black min-h-[100vh] flex flex-col items-center gap-[40px]">
+        <div className="w-full font-semibold text-white text-[4rem] py-[1rem] text-border-3 ">Time Table</div>
         <Session />
         <Session />
         <Session />

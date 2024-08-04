@@ -1,4 +1,3 @@
-import Coc from './COC';
 import Faq from './FAQ';
 import Introduce from './Introduce';
 import Timetable from './TimeTable';
@@ -15,7 +14,6 @@ function App() {
     }}>
       <Introduce />
       <Timetable />
-      <Coc />
       <Faq />
     </div>
 
